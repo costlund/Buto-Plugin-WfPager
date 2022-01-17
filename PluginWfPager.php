@@ -54,6 +54,9 @@ class PluginWfPager{
    * @param type $page
    */
   public function setPage($page){
+    if(!is_numeric($page)){
+      $page = null;
+    }
     $this->settings['page'] = $page;
   }
   /**
