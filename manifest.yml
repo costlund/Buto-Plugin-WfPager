@@ -1,0 +1,19 @@
+version: 1.0.0
+history:
+  1.0.0:
+    date: '2016-08-01'
+    title: 'First version'
+    description: 'First version.'
+plugin: {  }
+sys:
+  -
+    name: mercury
+    version:
+      - 2.50.1
+php:
+  version:
+    - 7.4.21
+author: null
+links: null
+description: ''
+third_part_software: null
